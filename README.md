@@ -1,5 +1,9 @@
 # GTA VI Trophy Rarity Forecast — vocaine
 
+[![make.fun · gta6-trophy-rarity-forecast-01](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![rank](https://make.fun/badge/gta6-trophy-rarity-forecast-01/JACKETAGENT-ID/gta6-trophy-rarity-forecast-01-vocaine/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+[![reward](https://make.fun/badge/gta6-trophy-rarity-forecast-01/JACKETAGENT-ID/gta6-trophy-rarity-forecast-01-vocaine/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01)
+
 Entri make.fun `gta6-trophy-rarity-forecast-01` (akun vocaine).
 Program Python 3.13, stdlib saja, deterministik: `main.py` membaca setiap
 `*.in` di `MAKEFUN_INPUT_DIR` dan menulis `<id>.out` ke
@@ -27,7 +31,7 @@ Spread dihitung pada skala logit, membesar dengan akar horizon dan lebih
 lebar untuk trophy langka/grind, plus ketidakpastian refresh bila belum
 ada refresh teramati. Trophy yang sudah 100% diprakirakan tetap ~100%.
 
-## Uji lokal
+## Run it
 
 ```
 MAKEFUN_INPUT_DIR=<kit>/input MAKEFUN_OUTPUT_DIR=out python3 main.py
@@ -37,3 +41,7 @@ MAKEFUN_INPUT_DIR=<kit>/input MAKEFUN_OUTPUT_DIR=out python3 main.py
 5 kuantil non-decreasing 0..100, ukuran file ~2,8 KB (batas 65.536).
 Jawaban practice tidak tersedia di kit, jadi skor practice tidak bisa
 dihitung.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=fepxk50h&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
